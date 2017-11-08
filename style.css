@@ -1,0 +1,31 @@
+.box {
+	color: white;
+	font-size: 100px;
+	text-align: center;
+	text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+	padding: 10px;
+	width: 33.333333333%
+}
+/*colors for each box*/
+.box1 {background: #10c993}
+.box2 {background: #3091d5}
+.box3 {background: #10c993}
+.box4 {background: #2d4052}
+.box5 {background: #ebc40a}
+.box6 {background: #d96d0a}
+.box7 {background: #d83132}
+.box8 {background: #b6bbc1}
+.box9 {background: #2ce065}
+.box10 {background: #0da77b}
+
+.container {
+	display: flex;
+	/*border: 10px solid goldenrod;*/
+	height: 100vh;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.box {
+	width: 300px;
+}
